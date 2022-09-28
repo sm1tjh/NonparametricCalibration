@@ -2,7 +2,7 @@
 Code for "Non-parametric calibration of multiple related radiocarbon determinations and their calendar age summarisation"
 
 
-13th April 2022
+28th Sept 2022
 
 This folder contain code to perform non-parametric calibration and subsequent summarisation of radiocarbon dates
 
@@ -43,11 +43,12 @@ These can be recreated by the files:
 
 ---- Paper Examples (Real-Life)
 
-Use the code in:
+To run the real examples, one needs to create a subdirectory called OutputRealExamples/ where the pdf plots will be saved. Once you have done this, use the code in:
 
 1) RealDatasetExamples.R
 2) RealExamplesWalkerPostProcessingFinal.R
 
+If you run the Armit example, it is quit slow since there are over 2000 14C determination to summarise
 
 
 
